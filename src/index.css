@@ -1,0 +1,56 @@
+@import url('https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+:root {
+}
+
+body {
+    background-color: #f9fbff !important;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    user-select: none;
+}
+
+label {
+    font-weight: bold !important;
+    color: #999 !important;
+}
+input, textarea {
+    font-weight: bold !important;
+    color: #333 !important;
+}
+.ant-select-selection {
+    background-color: green;
+  }
+::-webkit-scrollbar {
+    background-color: #e7f5ff;
+    width: 3px;
+}
+::-webkit-scrollbar-thumb { 
+    background-color: #1F98EF;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item {
+    font-weight: bold;
+}
+.ant-form-item-explain .ant-form-item-explain-error div{
+    font-weight: bold !important;
+}
+
+::-webkit-scrollbar:horizontal {
+    
+   
+    height:1px;
+}
